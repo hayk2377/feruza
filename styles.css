@@ -27,11 +27,6 @@ nav {
 .maincontainer {
   background-color: white;
 }
-@media (max-width: 700px) {
-  .heading {
-    font-size: 1rem;
-  }
-}
 
 /* new stuff  */
 .project-image {
@@ -52,4 +47,24 @@ nav {
 
   border-radius: 100%;
   background-color: black;
+}
+
+.mw-200 {
+  max-width: 200%;
+}
+
+.w-100-or-200 {
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 1rem;
+  }
+  .w-100-or-200 {
+    width: 200%;
+  }
+  .slide {
+    width: 100%;
+  }
 }
