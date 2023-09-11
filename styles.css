@@ -33,10 +33,6 @@ nav {
   height: 90vh; /*increase this to make them bigger*/
 }
 
-.slide {
-  /* height: 600px; */ /*this was too short*/
-  /* width: 50%; */
-}
 
 .prev-next-btn {
   padding: 1rem;
